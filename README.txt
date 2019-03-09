@@ -7,11 +7,18 @@ submitted by : manthan shah
 The submission consists of programs in the bin folder,relevant static and dynamic libraries and 
 object files in their respective folders.The source folder contains all the source programs.To 
 make all the files, execute command "make all".The command "make clean" removes everything made
-,effectively emptying the folders bin,objects and libraries.while testing programs,all the ones that require saving or loading from an external text file need to executed/run from the base folder itself
-as the required textfiles exist in this directory.Thus, to run the final tweet generator application,
-following command should be executed ".\bin\FinalProject.exe abbrevs.txt"  where abbrevs is the supporting text file containing all the abbreviations and definitions.
+,effectively emptying the folders bin,objects and libraries.while testing programs,all the ones 
+that require saving or loading from an external text file need to executed/run from the base 
+folder itself as the required textfiles exist in this directory.Thus, to run the final tweet 
+generator application,following command should be executed ".\bin\FinalProject.exe abbrevs.txt"
+where abbrevs is the supporting text file containing all the abbreviations and definitions.
 
-UPDATE 1: added batch scripts to automatically start all the necessary programs.The list of executable programs are as follows:
+Run MakeAll.bat first to generate all the executables.Softwares GNU-gcc and GNU-make are required to compile the programs.
+
+UPDATE 1:added batch scripts to automatically start all the necessary programs.
+		The list of executable programs are as follows:
+		
+		
 	TweetGen.bat			: 	launches FinalProject.exe which is a tweet generator program.
 									NOTE:the program requires relevant txt file containing the abbreviations, the script takes care of this.In case of custom loading abbreviations,the program can be executed from the cmd line or in program.
 	DictionaryProgram.bat	:	launches a Simple dictionary program allowing to store,load,search and print out words and their definitions.
@@ -27,7 +34,7 @@ UPDATE 1: added batch scripts to automatically start all the necessary programs.
 	
 	TokenizeTest.bat		:	launches a program to test the Tokenize function. Tokenize splits a given string into a set of short strings based on an input token. (example : "hello; world!; this is manthan!" is split into 3 strings "","world" and "this is manthan!")
 	
-	
+
 	
 					
 	
