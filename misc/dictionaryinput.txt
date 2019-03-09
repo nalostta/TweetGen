@@ -1,0 +1,6 @@
+apple:red fruit
+blueberry:blue fruit
+cricket:game!
+grapes:green fruit
+mango:yellow fruit
+orange:orange fruit

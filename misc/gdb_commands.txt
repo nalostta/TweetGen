@@ -1,0 +1,11 @@
+gdb:
+break
+run
+continue
+print
+step
+frame
+list (filename:line number)(line number)(function name)(n) ->  list 4 statements above line n and 4 below
+backtrace
+info
+delete
